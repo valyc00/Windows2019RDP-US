@@ -1,5 +1,5 @@
 # Windows2019RDP-US
-Windows Server 2019 Github with RDP Access (ngrok AP) 
+Windows Server 2019 Github with RDP Access (ngrok US) 
 
 Repo link: https://github.com/ThuongHai/Windows2019RDP-US
 
