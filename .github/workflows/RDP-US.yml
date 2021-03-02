@@ -32,7 +32,7 @@ jobs:
       run: |
         Invoke-WebRequest https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.x64.exe -OutFile npp.7.9.3.Installer.x64.exe
     - name: install personal Files.
-      run: start /w "" "npp.7.9.3.Installer.x64.exe" /S
+      run: sc start  "npp.7.9.3.Installer.x64.exe" /S
     - name: Enable RDP Access.
       run: | 
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
