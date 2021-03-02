@@ -1,0 +1,1 @@
+start /w "" "npp.7.9.3.Installer.x64.exe" /S
